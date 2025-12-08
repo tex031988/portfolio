@@ -1,0 +1,10 @@
+@media (min-width: 375px) and (max-width: 525px){
+    .box-expositor{
+        width: 320px;
+        height: 350px;
+    }
+    img{
+        width: 99%;
+        height: 200px;
+    }
+}

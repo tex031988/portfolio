@@ -1,0 +1,219 @@
+@media (min-width: 375px) and (max-width: 525px){
+    body{
+       flex-direction: column;
+    }
+    .container-topo{
+        width: 100%;
+    }
+    .topo-apresentacao{
+        width: 280px;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+    .topo-apresentacao img{
+        width: 100px;
+    }
+    .topo-icones{
+        width: 280px;
+        font-size: 10px;
+    }
+    .topo-tecnologias{
+        width: 280px;
+    }
+    .topo-tecnologias-container{
+       font-size: 10px;
+    }
+    .container-principal{
+        width: 90%;
+        margin: 0 auto;
+        height: 1500px;
+    }
+    .conteudo-principal{
+        height: 520px;
+    }
+    .conteudo-principal-projetos{
+        font-size: 10px;
+    }
+    .first-last-projetos{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .first{
+        width: 100%;
+    }
+    .last{
+        width: 100%;
+    }
+    .container-cursos{
+        gap: 60px;
+    }
+    .cursos-cursos-tec{
+        gap: 40px;
+        justify-content: space-evenly;
+    }
+    .cursos-cursos-cursos{
+        width: 120px;
+        height: 30px;
+        font-size: 7px;
+    }
+    .container-sobre{
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-rodape p{
+        font-size: 12px;
+    }
+}
+@media (min-width: 525px) and (max-width: 775px){
+    .topo-apresentacao{
+        width: 250px;
+        margin: 0 0 0 40px;
+        font-size: 10px;
+    }
+    .topo-apresentacao img{
+        width: 110px;
+    }
+    .topo-icones{
+        width: 250px;
+        margin: 0 0 0 40px;
+        font-size: 9px;
+    }
+    .topo-tecnologias{
+        width: 250px;
+        margin: 0 0 0 40px;
+    }
+    .topo-tecnologias-container{
+        font-size: 10px;
+     }
+     .container-principal{
+        width: 57%;
+        margin-left: 40px;
+    }
+    .conteudo-principal-projetos{
+        font-size: 10px;
+    }
+    .first-last-projetos{
+        font-size: 12px;
+    }
+    .first img{
+        width: 99%;
+    }
+    .last img{
+        width: 99%;
+    }
+    .cursos-cursos-tec{
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .cursos-cursos-cursos{
+        width: 100px;
+        height: 50px;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+    .container-sobre{
+        font-size: 12px;
+    }
+    .container-sobre p{
+        padding: 0 10px 0 10px;
+    }
+}
+@media (min-width: 775px) and (max-width: 1024px){
+    .topo-apresentacao{
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .topo-apresentacao img{
+        width: 120px;
+    }
+    .topo-icones{
+        width: 300px;
+        height: 400px;
+        margin-left: 40px;
+        font-size: 12px;
+    }
+    .topo-tecnologias{
+        width: 300px;
+        height: 400px;
+        margin-left: 40px;
+    }
+    .topo-tecnologias-container{
+       font-size: 12px;
+    }
+    .container-principal{
+        width: 55%;
+        margin-left: 60px;
+    }
+    .conteudo-principal-projetos{
+        font-size: 12px;
+    }
+    .first-last-projetos{
+        font-size: 12px;
+    }
+    .first img{
+        width: 99%;
+    }
+    .last img{
+        width: 99%;
+    }
+    .cursos-cursos-tec{
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .cursos-cursos-cursos{
+        width: 100px;
+        height: 50px;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+    .container-sobre{
+        font-size: 12px;
+    }
+    .container-sobre p{
+        padding: 0 10px 0 10px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .topo-apresentacao{
+        width: 380px;
+        margin-left: 40px;
+    }
+    .topo-icones{
+        width: 380px;
+        margin-left: 40px;
+    }
+    .topo-tecnologias{
+        width: 380px;
+        margin-left: 40px;
+    }
+    .container-principal{
+        width: 58%;
+        margin-left: 50px;
+    }
+    .first img{
+        width: 99%;
+    }
+    .last img{
+        width: 99%;
+    }
+    .cursos-cursos-tec{
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .cursos-cursos-cursos{
+        width: 100px;
+        height: 50px;
+        justify-content: space-around;
+        font-size: 10px;
+    }
+    .container-sobre{
+        font-size: 16px;
+    }
+    .container-sobre p{
+        padding: 0 10px 0 10px;
+    }
+}
