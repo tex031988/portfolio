@@ -1,69 +1,8 @@
-@media (min-width: 375px) and (max-width: 525px){
+@media (min-width: 320px) and (max-width: 600px){
     body{
-       flex-direction: column;
-    }
-    .container-topo{
-        width: 100%;
-    }
-    .topo-apresentacao{
-        width: 280px;
-        margin: 0 auto;
-        font-size: 10px;
-    }
-    .topo-apresentacao img{
-        width: 100px;
-    }
-    .topo-icones{
-        width: 280px;
-        font-size: 10px;
-    }
-    .topo-tecnologias{
-        width: 280px;
-    }
-    .topo-tecnologias-container{
-       font-size: 10px;
-    }
-    .container-principal{
-        width: 90%;
-        margin: 0 auto;
-        height: 1500px;
-    }
-    .conteudo-principal{
-        height: 520px;
-    }
-    .conteudo-principal-projetos{
-        font-size: 10px;
-    }
-    .first-last-projetos{
         display: flex;
         flex-direction: column;
-        gap: 25px;
-    }
-    .first{
-        width: 100%;
-    }
-    .last{
-        width: 100%;
-    }
-    .container-cursos{
-        gap: 60px;
-    }
-    .cursos-cursos-tec{
-        gap: 40px;
-        justify-content: space-evenly;
-    }
-    .cursos-cursos-cursos{
-        width: 120px;
-        height: 30px;
-        font-size: 7px;
-    }
-    .container-sobre{
-        font-size: 10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .container-rodape p{
-        font-size: 12px;
+        gap: 40%;
     }
 }
 @media (min-width: 525px) and (max-width: 775px){

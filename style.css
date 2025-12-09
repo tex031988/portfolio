@@ -286,12 +286,12 @@ h2,h3,div,a,p{
     list-style: none;
 }
 .container-rodape{
-    width: 98%;
+    width: 95%;
     padding: 30px;
     text-align: center;
     background-color: #38827a;
     border-radius: 15px;
-    margin: 10px 0 20px 10px;
+    margin: 10px 0 20px 35px;
     box-shadow: 0 0 10px 10px #f0f0f0;
 }
 .container-rodape p{
